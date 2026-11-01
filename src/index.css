@@ -1,0 +1,46 @@
+@import "tailwindcss";
+
+:root {
+  --pink-primary: #f45ba5;
+  --pink-dark: #db3989;
+  --pink-light: #fff0f6;
+  --pink-bg: #fff7fb;
+  --pink-border: #fce0ed;
+  --text-main: #493545;
+}
+
+body {
+  background-color: var(--pink-bg);
+  color: var(--text-main);
+}
+
+/* Smooth transition */
+button,
+a,
+input,
+.card {
+  transition: all 0.3s ease;
+}
+
+/* Anime image */
+.anime-card img {
+  transition: transform 0.4s ease;
+}
+
+.anime-card:hover img {
+  transform: scale(1.05);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #f4a6c8;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #fff0f6;
+}
