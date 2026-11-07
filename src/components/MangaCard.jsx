@@ -6,6 +6,7 @@ function MangaCard({ manga }) {
   return (
     <Link
       to={`/manga/${encodeURIComponent(String(slug))}`}
+      state={{ anime: manga }}
       className="group block min-w-0"
     >
       <div className="overflow-hidden rounded-xl border border-pink-100 bg-white shadow-sm transition duration-300 group-hover:-translate-y-1 group-hover:shadow-lg group-hover:shadow-pink-100">

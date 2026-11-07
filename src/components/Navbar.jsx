@@ -11,9 +11,9 @@ function Navbar({ search, setSearch }) {
           className="shrink-0 text-2xl font-black tracking-tight sm:text-3xl"
         >
           <span className="bg-gradient-to-r from-pink-500 to-fuchsia-500 bg-clip-text text-transparent">
-            YZ
+            Lo
           </span>
-          <span className="text-[#493545]">Project</span>
+          <span className="text-[#493545]">Ra</span>
           <span className="ml-1 text-pink-400">♡</span>
         </Link>
 
